@@ -9,7 +9,8 @@
 import Foundation
 
 struct Player{
-    private(set) public var playerName: String
-    private(set) public var leagueSelected: String
+    
+    var playerLeague: String!
+
 }
 

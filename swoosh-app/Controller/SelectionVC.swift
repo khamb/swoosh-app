@@ -9,10 +9,14 @@
 import UIKit
 
 class SelectionVC: UIViewController {
-
+    
+    var player: Player!
+    
+    @IBOutlet weak var outputLabel: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        outputLabel.text = "You selected \(String(player.playerLeague)) League"
         // Do any additional setup after loading the view.
     }
 

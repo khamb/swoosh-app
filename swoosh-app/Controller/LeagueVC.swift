@@ -10,13 +10,14 @@ import UIKit
 
 class LeagueVC: UIViewController {
 
-   
+    var player: Player!
     
     @IBOutlet weak var nextBtn: UIButton!
     
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        player = Player()
         nextBtn.isEnabled = false
         // Do any additional setup after loading the view.
     }
@@ -28,20 +29,22 @@ class LeagueVC: UIViewController {
     }
     
     @IBAction func onWomensTapped(_ sender: Any) {
-        leagueSelected(leagueType: "Womens")
+        whenLeagueSelected(leagueType: "Womens")
     }
     
     @IBAction func onMensTapped(_ sender: Any) {
-        leagueSelected(leagueType: "Mens")
+        whenLeagueSelected(leagueType: "Mens")
     }
     
     @IBAction func onCooedTapped(_ sender: Any) {
-        leagueSelected(leagueType: "Co-ed")
+        whenLeagueSelected(leagueType: "Co-ed")
     }
     
-    func leagueSelected(leagueType: String){
+    func whenLeagueSelected(leagueType: String){
+        player.playerLeague = leagueType
         nextBtn.isEnabled = true
     }
+    
     override func didReceiveMemoryWarning() {
         
         super.didReceiveMemoryWarning()
@@ -49,14 +52,17 @@ class LeagueVC: UIViewController {
     }
     
 
-    /*
-    // MARK: - Navigation
-
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         // Get the new view controller using segue.destinationViewController.
         // Pass the selected object to the new view controller.
+        
+        if let select = segue.destination as? SelectionVC{
+            select.player = player
+
+            
+        }
     }
-    */
+
 
 }

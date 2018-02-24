@@ -191,9 +191,9 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="desiredLeagueBG" translatesAutoresizingMaskIntoConstraints="NO" id="FCd-h3-xbV">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2Hu-Jm-pbq">
-                                <rect key="frame" x="158.33333333333334" y="346" width="97.666666666666657" height="44.333333333333314"/>
-                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="37"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2Hu-Jm-pbq">
+                                <rect key="frame" x="185.33333333333334" y="358.33333333333331" width="44.333333333333343" height="21"/>
+                                <fontDescription key="fontDescription" name=".SFNSDisplay" family=".SF NS Display" pointSize="18"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -209,6 +209,9 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="h1h-1Y-zok"/>
                     </view>
+                    <connections>
+                        <outlet property="outputLabel" destination="2Hu-Jm-pbq" id="tEQ-x3-ztz"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cGs-jc-mXi" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
