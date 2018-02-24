@@ -11,6 +11,6 @@ import Foundation
 struct Player{
     
     var playerLeague: String!
-
+    var playerLevel: String!
 }
 

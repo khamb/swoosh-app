@@ -12,8 +12,9 @@
 		F87343782030D7C8006FDBA1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F87343762030D7C8006FDBA1 /* Main.storyboard */; };
 		F873437A2030D7C8006FDBA1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F87343792030D7C8006FDBA1 /* Assets.xcassets */; };
 		F873437D2030D7C8006FDBA1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F873437B2030D7C8006FDBA1 /* LaunchScreen.storyboard */; };
+		F8937B0A2041D74000D494F1 /* PlayerProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8937B092041D74000D494F1 /* PlayerProfileVC.swift */; };
 		F8AB18012041038400560C22 /* LeagueVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8AB18002041038400560C22 /* LeagueVC.swift */; };
-		F8AB1803204103C900560C22 /* SelectionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8AB1802204103C900560C22 /* SelectionVC.swift */; };
+		F8AB1803204103C900560C22 /* SkillVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8AB1802204103C900560C22 /* SkillVC.swift */; };
 		F8AB18052041044E00560C22 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8AB18042041044E00560C22 /* Player.swift */; };
 /* End PBXBuildFile section */
 
@@ -25,8 +26,9 @@
 		F87343792030D7C8006FDBA1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F873437C2030D7C8006FDBA1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F873437E2030D7C8006FDBA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F8937B092041D74000D494F1 /* PlayerProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerProfileVC.swift; sourceTree = "<group>"; };
 		F8AB18002041038400560C22 /* LeagueVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeagueVC.swift; sourceTree = "<group>"; };
-		F8AB1802204103C900560C22 /* SelectionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectionVC.swift; sourceTree = "<group>"; };
+		F8AB1802204103C900560C22 /* SkillVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillVC.swift; sourceTree = "<group>"; };
 		F8AB18042041044E00560C22 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -93,7 +95,8 @@
 			children = (
 				F87343742030D7C8006FDBA1 /* WelcomeVC.swift */,
 				F8AB18002041038400560C22 /* LeagueVC.swift */,
-				F8AB1802204103C900560C22 /* SelectionVC.swift */,
+				F8AB1802204103C900560C22 /* SkillVC.swift */,
+				F8937B092041D74000D494F1 /* PlayerProfileVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -173,8 +176,9 @@
 				F87343752030D7C8006FDBA1 /* WelcomeVC.swift in Sources */,
 				F87343732030D7C8006FDBA1 /* AppDelegate.swift in Sources */,
 				F8AB18012041038400560C22 /* LeagueVC.swift in Sources */,
+				F8937B0A2041D74000D494F1 /* PlayerProfileVC.swift in Sources */,
 				F8AB18052041044E00560C22 /* Player.swift in Sources */,
-				F8AB1803204103C900560C22 /* SelectionVC.swift in Sources */,
+				F8AB1803204103C900560C22 /* SkillVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
