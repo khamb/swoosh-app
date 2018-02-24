@@ -16,7 +16,7 @@ class SelectionVC: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        outputLabel.text = "You selected \(String(player.playerLeague)) League"
+        outputLabel.text = "You selected \(String(player.playerLeague)) league"
         // Do any additional setup after loading the view.
     }
 
